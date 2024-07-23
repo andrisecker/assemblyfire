@@ -25,7 +25,9 @@ preprocessing_protocol:
 
 clustering:
     synapses:
-        cross_assemblies: {"seed1": {0: [3, 5], 1: [0], 2: [0, 4, 6, 8], 4: [7, 9, 10, 11], 5: [12], 6: [13, 14]}}
+        cross_assemblies: {"seed1": {0: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+                                     1: [0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+                                     11: [2, 3, 4, 5, 6, 7, 8, 9, 10]}}
         target_range: 10
         min_nsyns: 10
         n_neurons_sample: 10
