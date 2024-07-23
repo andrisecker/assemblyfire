@@ -1,4 +1,4 @@
-root_path: "/gpfs/bbp.cscs.ch/project/proj96/home/ecker/simulations/3e3ef5bc-b474-408f-8a28-ea90ac446e24"
+root_path: "/gpfs/bbp.cscs.ch/project/proj96/home/ecker/simulations/6449d510-65d9-43d7-a366-84edf56cb8be"
 
 input_patterns_fname: "input_spikes/stimulus_stream__start2000__end601501__rate2__seed9.txt"
 pattern_gids_fname: "input_spikes/Thalamocortical_input_VPM__hex_O1__supersample__nc100__pct12__seed9__pattern_gids.pkl"
@@ -21,9 +21,10 @@ preprocessing_protocol:
     surr_rate_method: "keep_sc_rate"
 
 clustering:
-    overwrite_n_clusters: {"seed1": 15}
     synapses:
-        cross_assemblies: {"seed1": {0: [2, 3, 5], 1: [5], 2: [0, 1, 3, 4, 5, 6, 8], 4: [7, 9, 10, 11], 5: [12], 6: [13, 14]}}
+        cross_assemblies: {"seed1": {0: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+                                     1: [0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+                                     11: [2, 3, 4, 5, 6, 7, 8, 9, 10]}}
         target_range: 10
         min_nsyns: 10
         n_neurons_sample: 10
