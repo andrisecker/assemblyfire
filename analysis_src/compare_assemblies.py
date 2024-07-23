@@ -202,6 +202,5 @@ if __name__ == "__main__":
     # config_path = "../configs/v7_10seeds_np.yaml"
     # consensus_vs_average_assembly_similarity(config_path, frac_ths=[0.2, 0.4, 0.6, 0.8])
     # consensus_vs_average_assembly_composition(config_path, 7, 1)
-    assembly_similarities_from2configs("../configs/v7_10seeds_np.yaml",
-                                       "../configs/v7_10seeds_np_L2-5_sparse.yaml")
+    assembly_similarities_from2configs("../configs/v7_np_before.yaml", "../configs/v7_np_after.yaml")
 

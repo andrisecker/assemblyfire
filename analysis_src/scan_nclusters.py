@@ -115,7 +115,7 @@ def main(config_path, seeds, save_assemblies=False):
 
 
 if __name__ == "__main__":
-    config_path = "/gpfs/bbp.cscs.ch/project/proj96/home/ecker/assemblyfire/configs/v7_plastic.yaml"
+    config_path = "/gpfs/bbp.cscs.ch/project/proj96/home/ecker/assemblyfire/configs/v7_np_before.yaml"
     seeds = [1]
     main(config_path, seeds)
 
