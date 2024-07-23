@@ -24,7 +24,6 @@ preprocessing_protocol:
     surr_rate_method: "keep_sc_rate"
 
 clustering:
-    overwrite_n_clusters: {"seed1": 15}
     synapses:
         cross_assemblies: {"seed1": {0: [3, 5], 1: [0], 2: [0, 4, 6, 8], 4: [7, 9, 10, 11], 5: [12], 6: [13, 14]}}
         target_range: 10
@@ -32,4 +31,4 @@ clustering:
         n_neurons_sample: 10
 
 manuscript_figures:
-    assembly_sequences: {"seed1": [3, 14, 10, 7, 13, 9, 11, 12, 8, 6, 4, 5, 0, 1, 2]}
+    assembly_sequences: {"seed1": [9, 7, 2, 10, 6, 4, 3, 5, 8, 11, 0, 1]}
